@@ -1,0 +1,267 @@
+use('Store');
+//customers
+
+db.customers.drop();
+
+db.customers.insertMany([
+  {
+  "name": "Andres",
+  "lastName": "Anderson",
+  "identification_card": "3-0524-0704",
+  "address": {
+    "addr_1": "In his house",
+    "addr_2": "In his office"
+  },
+  "phones": {
+    "phone_home": "2023-2010",
+    "phone_mobile": "8392-2902"
+  },
+  "cards": [
+    {
+      "account_number": "2934-2342-2395-5903",
+      "security": 493,
+      "due_date": {
+        "$date": {
+          "$numberLong": "1918252800000"
+        }
+      }
+    }
+  ]
+},{
+  "name": "Amanda",
+  "lastName": "Thomson",
+  "identification_card": "1-0524-0705",
+  "address": {
+    "addr_1": "From the park at 200mts East",
+    "addr_2": "From hospital Virgencita 500mts West"
+  },
+  "phones": {
+    "phone_home": "2594-2103",
+    "phone_mobile": "8019-2020"
+  },
+  "cards": [
+    {
+      "account_number": "2921-4332-0294-0395",
+      "security": 543,
+      "due_date": {
+        "$date": {
+          "$numberLong": "1804636800000"
+        }
+      }
+    }
+  ]
+},{
+  "name": "Daniel",
+  "lastName": "Andrew",
+  "identification_card": "2-0524-0706",
+  "address": {
+    "addr_1": "From the park at 300mts Nort",
+    "addr_2": "From hospital Virgencita 200mts South "
+  },
+  "phones": {
+    "phone_home": "2103-2594",
+    "phone_mobile": "9020-8019"
+  },
+  "cards": [
+    {
+      "account_number": "4332-0395-2022-4940",
+      "security": 912,
+      "due_date": {
+        "$date": {
+          "$numberLong": "1780272000000"
+        }
+      }
+    }
+  ]
+}
+]);
+
+//products
+
+db.products.drop();
+
+db.products.insertMany([
+    {
+  "id_product": 1,
+  "name": "Tennis Nike",
+  "price": 15000,
+  "description": "Of high quality in tennis",
+  "supplier": "5-3023-203",
+  "stock": 30,
+  "feature": {
+    "color": "black",
+    "size": "9",
+    "brand": "Nike",
+    "material": "cloth"
+  },
+  "type_product": "Shoes"
+},{
+  "id_product": 2,
+  "name": "Camisa Ocean",
+  "price": 7000,
+  "description": "Handmade shirt in china",
+  "supplier": "1-2300-302",
+  "stock": 40,
+  "feature": {
+    "color": "Red",
+    "size": "S",
+    "brand": "Ocean",
+    "material": "cloth"
+  },
+  "type_product": 2
+},{
+  "id_product": 3,
+  "name": "Pants Levi's",
+  "price": 7000,
+  "description": "Handmade pants in china",
+  "supplier": "2-3239-102",
+  "stock": 20,
+  "feature": {
+    "color": "Blue",
+    "size": "30",
+    "brand": "Levi's",
+    "material": "cloth"
+  },
+  "type_product": 3
+}
+])
+
+//sales
+
+db.sales.drop();
+
+db.sales.insertMany([
+
+{
+  "date": {
+    "$date": {
+      "$numberLong": "1577836800002"
+    }
+  },
+  "Stock_sale": 1,
+  "customer_sale": "3-0524-0704",
+  "product": "Tennis Nike"
+},{
+  "date": {
+    "$date": {
+      "$numberLong": "1577836800002"
+    }
+  },
+  "Stock_sale": 3,
+  "customer_sale": "1-0524-0705",
+  "product": "Camisa Ocean"
+},{
+  "date": {
+    "$date": {
+      "$numberLong": "1577836800002"
+    }
+  },
+  "Stock_sale": 1,
+  "customer_sale": "1-0524-0705",
+  "product": "Pants Levi's"
+},{
+  "date": {
+    "$date": {
+      "$numberLong": "1577836800002"
+    }
+  },
+  "Stock_sale": 1,
+  "customer_sale": "1-0524-0705",
+  "product": "Tennis Nike"
+},{
+  "date": {
+    "$date": {
+      "$numberLong": "1577836800002"
+    }
+  },
+  "Stock_sale": 2,
+  "customer_sale": "3-0524-0704",
+  "product": "Pants Levi's"
+}
+
+])
+
+//suppliers
+
+db.suppliers.drop();
+
+db.suppliers.insertMany([
+
+{
+  "name": "Josue",
+  "lastName": "Brenes",
+  "phones": [
+    {
+      "company_phone": "3920-9322",
+      "Mobile": "8920-2039"
+    }
+  ],
+  "company": "Addidas INC",
+  "address": [
+    {
+      "add_1": "En la oficina central",
+      "add_2": "Casa, de la iglesia 100 metros a la derecha"
+    }
+  ],
+  "identification_card": "1-2300-302"
+},{
+  "name": "Pamela",
+  "lastName": "Saborio",
+  "phones": [
+    {
+      "company_phone": "9492-2092",
+      "Mobile": "8201-2920"
+    }
+  ],
+  "company": "Nice Pants INC",
+  "address": [
+    {
+      "add_1": "La casa de Pamela",
+      "add_2": "En el trabajo de pamela"
+    }
+  ],
+  "identification_card": "2-3239-102"
+},{
+  "name": "Fran",
+  "lastName": "Perez",
+  "phones": [
+    {
+      "company_phone": "9202-2021",
+      "Mobile": "8291-0210"
+    }
+  ],
+  "company": "Nike Company",
+  "address": [
+    {
+      "add_1": "La casita de naiki"
+    }
+  ],
+  "identification_card": "5-3023-203"
+}
+
+])
+
+
+
+//types_products
+
+db.types_products.drop();
+
+db.types_products.insertMany([
+
+{
+
+  "type": "Shoes",
+  "description": "Type for all shoes"
+},{
+
+  "type": "Shirt ",
+  "description": "Type for all shirts"
+},{
+
+  "type": "Pants",
+  "description": "Type for all pants"
+}
+
+])
+

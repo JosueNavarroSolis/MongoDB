@@ -1,0 +1,42 @@
+use('Store');
+/*
+//Avaible
+db.products.find({stock:{$gt : 1}})
+*/
+//Client-sale
+db.sales.find()
+/*db.sales.find().forEach(cursor);
+
+
+function cursor(user) {
+  db.customers.find({identification_card: user.customer_sale})
+}
+/*
+db.sales.aggregate(){
+    if($exist[db.customers.find({identification_card:customer_sale})]){
+       db.customers.find({identification_card:customer_sale})
+    }
+
+}
+/*
+//db.customers.find({identification_card:client})
+
+router.post("/updateByID", async (req,res) => {
+
+    const setAttributes = {name: req.body.name, lastname1: req.body.lastname1, lastname2: req.body.lastname2, password: req.body.password,
+        altEmail: req.body.altEmail, department:req.body.department, phone:req.body.phone, vehicles:[req.body.vehicles]};
+
+    UserModel.aggregate([{$match:{ID:{$eq:req.body.ID}}}], (err,result) =>{
+        if (err){
+            res.status(404).send('User invalid')
+        }
+        if(result[0] === undefined){
+            res.status(404).send('User invalid')
+        }
+        else{
+            console.log(result)
+            console.log(result[0].ID)
+            UserModel.findOneAndUpdate({ID:result[0].ID},{setAttributes},{new:true},(err,result) =>{})
+        }
+    })
+})*/
