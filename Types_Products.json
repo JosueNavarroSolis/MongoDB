@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "62937cf2a359b9b9a0432366"
+  },
+  "type": "Shoes",
+  "description": "Type for all shoes"
+},{
+  "_id": {
+    "$oid": "62937d4aa359b9b9a0432367"
+  },
+  "type": "Shirt ",
+  "description": "Type for all shirts"
+},{
+  "_id": {
+    "$oid": "62937d52a359b9b9a0432368"
+  },
+  "type": "Pants",
+  "description": "Type for all pants"
+}]

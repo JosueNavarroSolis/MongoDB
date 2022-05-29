@@ -1,0 +1,52 @@
+[{
+  "_id": {
+    "$oid": "6293749ca359b9b9a0432351"
+  },
+  "id_product": 1,
+  "name": "Tennis Nike",
+  "price": 15000,
+  "description": "Of high quality in tennis",
+  "supplier": "5-3023-203",
+  "stock": 30,
+  "feature": {
+    "color": "black",
+    "size": "9",
+    "brand": "Nike",
+    "material": "cloth"
+  },
+  "type_product": "Shoes"
+},{
+  "_id": {
+    "$oid": "6293752ea359b9b9a0432353"
+  },
+  "id_product": 2,
+  "name": "Camisa Ocean",
+  "price": 7000,
+  "description": "Handmade shirt in china",
+  "supplier": "1-2300-302",
+  "stock": 40,
+  "feature": {
+    "color": "Red",
+    "size": "S",
+    "brand": "Ocean",
+    "material": "cloth"
+  },
+  "type_product": 2
+},{
+  "_id": {
+    "$oid": "6293757aa359b9b9a0432355"
+  },
+  "id_product": 3,
+  "name": "Pants Levi's",
+  "price": 7000,
+  "description": "Handmade pants in china",
+  "supplier": "2-3239-102",
+  "stock": 20,
+  "feature": {
+    "color": "Blue",
+    "size": "30",
+    "brand": "Levi's",
+    "material": "cloth"
+  },
+  "type_product": 3
+}]

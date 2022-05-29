@@ -1,0 +1,76 @@
+[{
+  "_id": {
+    "$oid": "62937e4ca359b9b9a043236c"
+  },
+  "name": "Andres",
+  "lastName": "Anderson",
+  "address": {
+    "addr_1": "In his house",
+    "addr_2": "In his office"
+  },
+  "phones": {
+    "phone_home": "2023-2010",
+    "phone_mobile": "8392-2902"
+  },
+  "cards": [
+    {
+      "account_number": "2934-2342-2395-5903",
+      "security": 493,
+      "due_date": {
+        "$date": {
+          "$numberLong": "1918252800000"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62937e6ca359b9b9a043236d"
+  },
+  "name": "Amanda",
+  "lastName": "Thomson",
+  "address": {
+    "addr_1": "From the park at 200mts East",
+    "addr_2": "From hospital Virgencita 500mts West"
+  },
+  "phones": {
+    "phone_home": "2594-2103",
+    "phone_mobile": "8019-2020"
+  },
+  "cards": [
+    {
+      "account_number": "2921-4332-0294-0395",
+      "security": 543,
+      "due_date": {
+        "$date": {
+          "$numberLong": "1804636800000"
+        }
+      }
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62937e82a359b9b9a043236e"
+  },
+  "name": "Daniel",
+  "lastName": "Andrew",
+  "address": {
+    "addr_1": "From the park at 300mts Nort",
+    "addr_2": "From hospital Virgencita 200mts South "
+  },
+  "phones": {
+    "phone_home": "2103-2594",
+    "phone_mobile": "9020-8019"
+  },
+  "cards": [
+    {
+      "account_number": "4332-0395-2022-4940",
+      "security": 912,
+      "due_date": {
+        "$date": {
+          "$numberLong": "1780272000000"
+        }
+      }
+    }
+  ]
+}]

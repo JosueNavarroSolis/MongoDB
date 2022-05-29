@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "6293c999eb7fa13bb0e7ffb6"
+  },
+  "name": "Josue",
+  "lastName": "Brenes",
+  "phones": [
+    {
+      "company_phone": "3920-9322",
+      "Mobile": "8920-2039"
+    }
+  ],
+  "company": "Addidas INC",
+  "address": [
+    {
+      "add_1": "En la oficina central",
+      "add_2": "Casa, de la iglesia 100 metros a la derecha"
+    }
+  ],
+  "identification_card": "1-2300-302"
+},{
+  "_id": {
+    "$oid": "6293ca25eb7fa13bb0e7ffb7"
+  },
+  "name": "Pamela",
+  "lastName": "Saborio",
+  "phones": [
+    {
+      "company_phone": "9492-2092",
+      "Mobile": "8201-2920"
+    }
+  ],
+  "company": "Nice Pants INC",
+  "address": [
+    {
+      "add_1": "La casa de Pamela",
+      "add_2": "En el trabajo de pamela"
+    }
+  ],
+  "identification_card": "2-3239-102"
+},{
+  "_id": {
+    "$oid": "6293ca5feb7fa13bb0e7ffb8"
+  },
+  "name": "Fran",
+  "lastName": "Perez",
+  "phones": [
+    {
+      "company_phone": "9202-2021",
+      "Mobile": "8291-0210"
+    }
+  ],
+  "company": "Nike Company",
+  "address": [
+    {
+      "add_1": "La casita de naiki"
+    }
+  ],
+  "identification_card": "5-3023-203"
+}]

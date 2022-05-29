@@ -1,0 +1,61 @@
+[{
+  "_id": {
+    "$oid": "62937eeaa359b9b9a0432377"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1577836800002"
+    }
+  },
+  "Stock_sale": 1,
+  "customer_sale": "Andres Anderson",
+  "product": "Tennis Nike"
+},{
+  "_id": {
+    "$oid": "6293cb2a8384a871f5fd2bf0"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1577836800002"
+    }
+  },
+  "Stock_sale": 3,
+  "customer_sale": "Andres Anderson",
+  "product": "Camisa Ocean"
+},{
+  "_id": {
+    "$oid": "6293cb408384a871f5fd2bf1"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1577836800002"
+    }
+  },
+  "Stock_sale": 1,
+  "customer_sale": "Andres Anderson",
+  "product": "Pants Levi's"
+},{
+  "_id": {
+    "$oid": "6293cb5c8384a871f5fd2bf2"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1577836800002"
+    }
+  },
+  "Stock_sale": 1,
+  "customer_sale": "Amanda Thomson",
+  "product": "Tennis Nike"
+},{
+  "_id": {
+    "$oid": "6293cb798384a871f5fd2bf3"
+  },
+  "date": {
+    "$date": {
+      "$numberLong": "1577836800002"
+    }
+  },
+  "Stock_sale": 2,
+  "customer_sale": "Daniel Andrew",
+  "product": "Pants Levi's"
+}]
