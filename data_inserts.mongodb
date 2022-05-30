@@ -123,6 +123,23 @@ db.products.insertMany([
     "material": "cloth"
   },
   "type_product": 3
+},{
+  "_id": {
+    "$oid": "62943ee370e1c2b062d21ac5"
+  },
+  "id_product": 3,
+  "name": "T-shirt Levi's",
+  "price": 14000,
+  "description": "Handmade T-Shirt in Dubai",
+  "supplier": "2-3239-102",
+  "stock": 0,
+  "feature": {
+    "color": "Red",
+    "size": "L",
+    "brand": "Levi's",
+    "material": "cloth"
+  },
+  "type_product": 3
 }
 ])
 
